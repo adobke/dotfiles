@@ -1,0 +1,60 @@
+Xcursor.theme: whiteglass
+
+! urxvt settings & colors
+urxvt*background:          #242424
+urxvt*cursorBlink:         true
+urxvt*cursorColor:         #ebac34
+urxvt*font:                xft:terminus:pixelsize=10
+urxvt*boldFont:            xft:terminus:pixelsize=10
+urxvt*transparent:	   true
+urxvt:borderLess:	   true
+urxvt*depth:               32
+urxvt:background           rgba:0000/0000/0000/dddd
+
+urxvt*foreground:          white
+urxvt*geometry:            120x25
+
+! V
+urxvt*inheritPixmap:       true
+urxvt*internalBorder:      0
+urxvt*saveLines:           4000
+urxvt*scrollBar:           false
+! V
+urxvt*shading:             15
+urxvt*termName:            rxvt
+urxvt*fading:              20
+! V
+!urxvt*tintColor:          #ffffff
+urxvt*underlineColor:      #86a2be
+URxvt.matcher.button:      1
+URxvt.matcher.pattern.1:   \bwww\.[\w-]\.[\w./?&@#-]*[\w/-]
+URxvt*urlLauncher:         chromium
+urxvt.perl-ext-common:     default,matcher,tabbed
+
+*foreground:              #a0a0a0
+!*background:              #1B1D1E
+*background:              #121212
+!black
+*color0:                  #1B1D1E
+*color8:                  #505354
+!red
+*color1:                  #F92672
+*color9:                  #FF5995
+!green
+*color2:                  #82B414
+*color10:                 #B6E354
+!yellow
+*color3:                  #FD971F
+*color11:                 #FEED6C
+!blue
+*color4:                  #4E82AA
+*color12:                 #0C73C2
+!magenta
+*color5:                  #8C54FE
+*color13:                 #9E6FFE
+!cyan
+*color6:                  #465457
+*color14:                 #899CA1
+!white
+*color7:                  #CCCCC6
+*color15:                 #F8F8F2
